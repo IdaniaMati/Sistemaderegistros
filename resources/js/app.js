@@ -2,16 +2,20 @@ import './bootstrap';
 
 
 // comandos para  importar y usar Vue.js:
-import HelloWorld from '@/components/HelloWorld.vue'
+import contnido from '@/components/container.vue'
+
 
 window.app = createApp({
     setup() {
         return {
-            message: 'Welcome to Your Vue.js App',
+            el:'#app',
+            data :{
+                menu: 0
+            }
         };
     },
     components: {
-        HelloWorld
+        contnido
     },
 }).mount('#app');
 

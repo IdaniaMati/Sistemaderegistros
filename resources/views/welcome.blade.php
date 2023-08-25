@@ -18,7 +18,7 @@
     <body class="antialiased">
     <!--Código para probar vue3 + vite + laravel 10-->
     <div id="app">
-        Vue 3 + Vite + Laravel 10
+        Vue 3 + Vite + Laravel 10 + Idania
         <hello-world></hello-world>
     </div>
 
