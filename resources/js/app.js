@@ -1,11 +1,20 @@
 import './bootstrap';
 
+import Vue from 'vue';
+import Container from './components/container.vue';
+
+Vue.component('container-component', Container);
+
+const app = new Vue({
+    el: '#app',
+});
+
 
 // comandos para  importar y usar Vue.js:
-import contnido from '@/components/container.vue'
+//import contnido from '@/components/container.vue'
 
 
-window.app = createApp({
+/*window.app = createApp({
     setup() {
         return {
             el:'#app',
@@ -17,6 +26,4 @@ window.app = createApp({
     components: {
         contnido
     },
-}).mount('#app');
-
-
+}).mount('#app'); */
